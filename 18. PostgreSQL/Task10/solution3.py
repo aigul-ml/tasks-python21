@@ -1,0 +1,1 @@
+# SELECT title, year FROM work WHERE year IN (SELECT * FROM GENERATE_SERIES(1601, 1700));

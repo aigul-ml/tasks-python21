@@ -1,0 +1,6 @@
+list1 = [11, 23, 45, 7, 9]
+list2 = [21, 4, 16, 8, 10]
+
+list1.extend(list2)
+
+print(sum(list1))
